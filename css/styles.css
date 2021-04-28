@@ -1,0 +1,228 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Aviano Copper';
+  src: url('Aviano_Copper_W00_Light.ttf') format('truetype')
+}
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Aviano Copper', serif;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #c9d6df;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.text-logo {
+  font-family: 'Aviano Copper', serif;
+  font-size: 2.5rem;
+}
+
+.title-left-column{
+  text-align: center;
+}
+
+.title-right-column {
+  text-align: center;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.card-img-top {
+  padding: 10%;
+}
+/* .card{
+  width: 20%;
+} */
+
+@media (max-width: 991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .testimonial-quote {
+    font-size: 2rem;
+  }
+}
+
+#solutions {
+  background-color: #f0f5f9;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+#solutions-second {
+  /* background-color: #f0f5f9; */
+  background-color: #c9d6df;
+  /* background-color: #52616b; */
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-point {
+  text-align: center;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.solution-image {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+#testimonials {
+  background-color: #f0f5f9;
+  color: #f0f5f9;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 0%;
+}
+
+/* #partners-section-title {
+  margin-top: 2%;
+} */
+
+.carousel-item {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 500px !important;
+}
+
+.testimonial-image {
+  width: 50%;
+  margin: 40px;
+  /* border-radius: 100%; */
+}
+
+.inline-block-text {
+  display: inline-block;
+}
+
+.inline-block-text-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+#press {
+  background-color: #52616b;
+  text-align: center;
+  padding-top: 1%;
+  /* padding-bottom: 0.25%; */
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 50px 50px;
+}
+
+/* #pricing {
+  background-color: #f0f5f9;
+  padding: 100px;
+  text-align: center;
+} */
+
+.custom-card-class {
+  margin-bottom: 3%;
+}
+
+#cta {
+  background-color: #c9d6df;
+  text-align: center;
+}
+
+.cta-title {
+  font-weight: 700;
+  padding-top: 4%;
+}
+
+.download-button-cta {
+  margin: 0 3% 0 0;
+}
+
+.download-button-cta-div {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+#footer {
+  background-color: #52616b;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  color: white;
+}
+
+.social-icon {
+  margin: 0 1%;
+}
+
+h4 {
+  text-align: center;
+}
+
+.footer-text {
+  display: inline;
+}
+
+ /* {
+  filter: invert(100%);
+} */
+.carousel-control-prev,
+.carousel-indicator,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+#loaded-pcb-img{
+  padding-bottom: 15%;
+}
+
+#altium-img {
+ padding-bottom: 21.5%;
+}
+
+#embedded-system-img {
+  padding-bottom: 19%;
+}
+
+#smart-city-img {
+  padding-bottom: 20%;
+}
